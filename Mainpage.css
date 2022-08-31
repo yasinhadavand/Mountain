@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    -ms-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.menu{
+    width: 30%;
+    height: 100px;
+    float: left;
+    /* background-color: blue; */
+    font-size: 5rem;
+    float: left;
+    margin: 1% 0 0 2%;
+    cursor:context-menu ;
+    color: oldlace;
+}
+.title{
+    color: white;
+}
+.menu2 li{
+    float: right;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 2%;
+}
+.menu2 li a{
+    padding: 10px;
+    border-radius: 13px;
+}
+.menu2 li a:hover{   
+    /* background-color: rgb(217, 211, 211); */
+    box-shadow: -1px -1px 13px 2px white;
+}
+.menutools{
+    color: white;
+    text-decoration: none;
+}
+.imgtitle{
+    width: 98.9vw;
+    height: 90vh;
+    background: url("./img/j-v-RRWc_JGSXYs-unsplash.jpg") center center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+}
+.suggestion{
+   width: 27.33%; 
+    height: 2%;
+    float: left;
+    margin: 3% ;
+    border: 1px solid rgb(182, 178, 178);
+    border-radius: 20px;
+    box-shadow: 1px 3px 20px 0.5px lightgray;
+    overflow: auto;
+}
+.suggestion h1 {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+}
+.suggestion p{
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.yourphoto{
+    display: inline-block;
+    width: 100%;
+    margin-top: 2%; 
+}
+.yourphoto h1{
+    text-align: center;
+    font-size: 200%;
+}
+.padding2{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.hr1{
+    text-align: center;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+.h2{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(177, 168, 168);
+    border-radius: 50%;
+    float: left;
+    margin-left: -30%;
+    margin-top: -4.3px;
+}
+.uploudphoto{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 60px 20px 60px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+.uploudyourphoto{
+    width: 100%;
+    height: 200px;
+    clear: left;
+}
+.uploudyourphoto img{
+    width: 27%;
+    height: 170%;
+    margin: 3% 0 0 2px ;
+    float: left;
+    border: 2px solid gray;
+    
+}
+#img1{
+    margin-right: 0;
+    margin-left: 9%;
+}
+.uploudyourphoto p{
+    width: 27%;
+    /* border: 2px solid gray; */
+    padding: 20px ;
+    display: inline-flexbox;
+    float: right;
+    margin: 0.5px 2px 0 0;
+    font-size: 1.4rem;
+}
+.right{
+    margin: -9.6%;
+}
+.uploudyourphoto p a{
+    text-decoration: none;
+    color: rgb(13, 171, 15);
+    font-size: 1.3rem;
+}
+.imgbackground{
+    margin-top: 40px;
+    display: inline-block;
+    width: 98.9vw;
+    height: 50vh;
+    background: url("/img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg") center/cover no-repeat ;
+    background-attachment: fixed;
+    opacity: 0.4;
+}
+.veiwPorof{
+    /* background-color: red; */
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.veiwPorof a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.iconBox{
+    /* display:; */
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+}
+.aboutUs{
+    width: 50%;
+    height: 500px;
+    float: left;
+    /* background-color: chartreuse; */
+}
+.Icon{
+    width: 60px;
+    height: 60px;
+}
+.IconPad{
+    margin-left: 10px;
+}
+
+.tools{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    /* margin: 4%; */
+    font-size: 1.3rem;
+    /* background-color: blue; */
+    margin-bottom: 20px;
+    float: right;
+}
+.pIcon{
+    width: 60%;
+    float: right;
+}
+.aboutUsStyle{
+    text-align: center;
+    /* background-color: red; */
+    width: 100%;
+    height: 100PX;
+    line-height: 100px;
+    font-size: 2.8rem;
+    padding-left: 50%;
+}
+.dotAboutUs{
+    width: 50%;
+    height: 0;
+    float: right;
+    margin-right: 10%;
+}
+.hHalf{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(177, 168, 168);
+    border-radius: 50%;
+    float: right;
+    margin-right: -50%;
+    margin-top: -4.3px;
+}
+.padding3{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+.textAboutUs{
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+    text-align: right;
+    padding: 0% 6% 6% 6%;
+    font-size: 1.6rem;
+}
+.checkOutTeam{
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+}
+.buttunicon{
+    margin-right: 5.5%;
+    width: 50%;
+    height: 70px;
+    float: right;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.textIcon{
+    width: 50%;
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    margin-right: 1.5%;
+}
+.imgIcon{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(37, 36, 36);
+    padding: 3% 8%;
+}
+.container{
+   width: 100%;
+   height: auto;
+   padding-top: 20px;
+}
+.section{
+   width: 21%; 
+   float: left;
+   margin-left: 4%;
+   color: rgb(180, 180, 180);
+}
+.footerPfont{
+    width: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.follow{
+    margin-top: 12%;
+    padding: 5px;
+}
+#telegrm{
+    font-size:24px ; 
+    color: white;
+}
+.decoration{
+    text-decoration: none;
+}
+.strong{
+    font-size: 14px; color: white;
+}
+.span{
+    margin-left: 25px; color: white;
+}
+.ul{
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+}
+.ul li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.ul li a{
+    text-decoration: none;
+    color: white;
+}
+.tagsection{
+    /* background-color: blue; */
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    /* margin-top: 10px; */
+    /* float: left; */
+}
+.tagsection a{
+    display: block;
+    text-align: center;
+    width: 70%;
+    text-decoration: none;
+    color: white;
+    border: 2px solid gray;
+    font-size: 15px;
+}
+.h2height{
+    height:40px ;
+}
+@media (m){
+
+}
+.Tel-Phone{
+    margin: 20px 0 20px;
+}
+.ul-hours{
+    margin-bottom: 10px;
+}
