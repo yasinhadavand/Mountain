@@ -351,5 +351,5 @@ body,html{
     font-size: 20px;
     background-color: aquamarine;
     text-decoration: none;
-    
+    display: flex;
 }
