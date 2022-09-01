@@ -356,5 +356,6 @@ body,html{
 .yasin>img{
     width: 100px;
     height: 100px;
-    
+    border: 1px solid black ;
+    border-radius: 10%;
 }
