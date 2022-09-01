@@ -352,6 +352,7 @@ body,html{
 <<<<<<< HEAD
     background-color: aquamarine;
     text-decoration: none;
+<<<<<<< HEAD
 
 }
 .yasin>img{
@@ -364,3 +365,7 @@ body,html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 >>>>>>> tesat
+=======
+    display: flex;
+}
+>>>>>>> felex
