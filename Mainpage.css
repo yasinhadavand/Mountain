@@ -150,9 +150,9 @@ body,html{
     display: inline-block;
     width: 98.9vw;
     height: 50vh;
-    background: url("/img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg") center/cover no-repeat ;
+    background: url("img/martin.jpg")center center/cover no-repeat ;
     background-attachment: fixed;
-    opacity: 0.4;
+    /* opacity: 0.8; */
 }
 .veiwPorof{
     /* background-color: red; */
