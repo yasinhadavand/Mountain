@@ -11,51 +11,113 @@ body,html{
     font-size: 10px;
 }
 
-.menu{
-    width: 30%;
+.mountain{
+    width: 50%;
     height: 100px;
     float: left;
-    /* background-color: blue; */
+    position: absolute;
     font-size: 5rem;
-    float: left;
-    margin: 1% 0 0 2%;
     cursor:context-menu ;
     color: oldlace;
+}
+.mountain>div{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 .title{
     color: white;
 }
-.menu2 li{
+.menu{
+    width: 100%;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+.menu li{
     float: right;
     list-style-type: none;
     font-size: 18px;
-    padding: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
 }
-.menu2 li a{
-    padding: 10px;
+@media screen and (max-width:700px) {
+    .mountain{
+        width: 300px;
+        font-size: 3rem;
+        height: 70px;
+        left: 50%;
+        top: 2%;
+        transform: translate(-50%)
+    }
+    .menu{
+        width: 100%;
+        height: 50px;
+        /* background-color: aqua; */
+        top: 30%;
+        transform: translateY(-50%);
+    }
+    .menu li{
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        transition: 2s;
+    }
+    .menu li:nth-child(1){
+        font-size: 30px;
+    }
+    .menu li:nth-child(2){
+        top: -60%;
+    }
+    .menu li:nth-child(3){
+        top: -140%;
+    }
+    .menu li:nth-child(4){
+        top: 140%;
+    }
+    .menu li:nth-child(5){
+        top: 230%;
+    }
+    .menu li:nth-child(6){
+        left: 20%;
+    }
+    .menu li:nth-child(7){
+        left: 80%;
+    }
+    .menu li>span:hover .menu li:nth-child(7){
+        opacity: 1;
+    }
+    .menu li a{
+        text-shadow: 0 0 5px rgb(3, 237, 3);
+    }
+}
+.menu li a{
+    /* padding: 10px; */
     border-radius: 13px;
+    padding: 5px;
 }
-.menu2 li a:hover{   
+.menu li a:hover{   
     /* background-color: rgb(217, 211, 211); */
     box-shadow: -1px -1px 13px 2px white;
 }
 .menutools{
     color: white;
     text-decoration: none;
+
 }
 .imgtitle{
-    width: 98.9vw;
+    width: 100vw;
     height: 90vh;
     background: url("./img/j-v-RRWc_JGSXYs-unsplash.jpg") center center/cover no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* opacity: 0.5; */
 }
 .suggestion{
    width: 27.33%; 
-    height: 2%;
+    /* height: 2%; */
     float: left;
     margin: 3% ;
     border: 1px solid rgb(182, 178, 178);
@@ -72,6 +134,13 @@ body,html{
     padding: 5px 10px;
     font-size: 1.3rem;
     text-align: center;
+}
+@media screen and (max-width:700px){
+    .suggestion{
+        width: 90%;
+        left: 50%;
+    }
+
 }
 .yourphoto{
     display: inline-block;
@@ -115,6 +184,7 @@ body,html{
     width: 100%;
     height: 200px;
     clear: left;
+    position: relative;
 }
 .uploudyourphoto img{
     width: 27%;
@@ -122,11 +192,10 @@ body,html{
     margin: 3% 0 0 2px ;
     float: left;
     border: 2px solid gray;
+    position: relative;
+    left: 15%;
+    transform: translate(-15%);
     
-}
-#img1{
-    margin-right: 0;
-    margin-left: 9%;
 }
 .uploudyourphoto p{
     width: 27%;
@@ -138,12 +207,53 @@ body,html{
     font-size: 1.4rem;
 }
 .right{
-    margin: -9.6%;
+    left: -50%;
+    transform: translate(45%);
 }
 .uploudyourphoto p a{
     text-decoration: none;
     color: rgb(13, 171, 15);
     font-size: 1.3rem;
+}
+@media screen and (max-width:700px){   
+    .uploudyourphoto img{
+        position: relative;
+        width: 50%;  
+        height: 200px;
+        left: 50%;
+        transform: translate(-50%);
+        top: 80%;
+        }
+    /* .right{
+        position: absolute;
+    } */
+    .right p:nth-child(1){
+        position: absolute;
+        top: -280%;
+        left: 10%;
+    }
+    .right p:nth-child(2){
+        position: absolute;
+        top: -140%;
+        left: 70%;
+    }
+    .right p:nth-child(3){
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+    #img1{
+        left: 65%;
+        top: 10%;
+    }
+    #img2{
+        left: 35%;
+        top: 50%;
+    }
+    #img3{
+        left: 65%;
+    }
+
 }
 .imgbackground{
     margin-top: 40px;
@@ -167,12 +277,12 @@ body,html{
     color: blueviolet;
 }
 .iconBox{
-    /* display:; */
     margin-top: 20px;
     width: 100%;
     height: 800px;
     /* background-color: red; */
 }
+
 .aboutUs{
     width: 50%;
     height: 500px;
@@ -264,6 +374,32 @@ body,html{
     height: 60px;
     padding-top: 10px;
 }
+@media screen and (max-width:720px){
+    .iconBox{
+        position: relative;
+    }
+    .aboutUs{
+        width: 100%;
+        position: absolute;
+        top: 70%;
+    }
+    .tools{
+        width: 100%;
+        height: 100px;;
+        position: relative;
+        opacity: 1;
+        margin-bottom: 50px;
+    }
+    .checkOutTeam{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+        top: 130%;
+
+    }
+
+}
 .footer{
     width: 100%;
     height: 400px;
@@ -338,12 +474,35 @@ body,html{
 .h2height{
     height:40px ;
 }
-@media (m){
-
-}
 .Tel-Phone{
     margin: 20px 0 20px;
 }
 .ul-hours{
     margin-bottom: 10px;
 }
+footer{
+    position: relative;
+}
+@media screen and (max-width:720px){
+    .footer{
+        height: 700px;
+        position: absolute;
+        margin-top: 90%;        
+    }
+    .section{
+        width: 40%;
+        margin: 30px 0 0 10% ;
+    }
+
+}
+@media screen and (max-width:600px){
+    .footer{
+        margin-top: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .footer{
+        margin-top: 140%;
+    }
+}
+
